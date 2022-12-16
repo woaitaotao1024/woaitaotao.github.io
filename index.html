@@ -6,7 +6,7 @@
         <title>与小熊聊天中</title>
         <link href="css/main.min.css" rel="stylesheet" type="text/css">
         <link rel="Shortcut Icon" href="favicon.ico"/>
-
+        <link rel="preload" href="tree.jpg" as="image">
     </head>
     <body>
         <div id="mobile" :class="{ 'has-prompt': hasPrompt }">
@@ -57,7 +57,7 @@
                     v-on:click="togglePrompt(true)"
                     :class="{'clickable': !isTyping }">
                     <span v-if="!isTyping">我想说……</span>
-                    <span v-if="isTyping">小熊正在输入中</span>
+                    <span v-if="isTyping">桃桃正在输入中</span>
                 </div>
             </div>
             <div id="prompt-bg" v-on:click="togglePrompt(false)"></div>
