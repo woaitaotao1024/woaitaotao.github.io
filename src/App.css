@@ -1,0 +1,10 @@
+/*设置字体*/
+@font-face{
+    font-family: myfont;
+    src: url("./琅琊榜.ttf");
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+}
