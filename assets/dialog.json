@@ -75,10 +75,14 @@
         "responses": [{
             "content": "给你个机会",
             "nextAuthor": ["0001"]
-        },{
-            "content": "没有机会了",
-            "nextAuthor": ["0002"]
-        }]             
+        }]
+    }, {
+        "id": "0001",
+        "details": [
+            [
+                "打个电话好不好"
+            ]
+        ]
     }],
     "fromUser": []
 }
